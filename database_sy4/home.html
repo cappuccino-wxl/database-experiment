@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<head>
+    <title>Leasing Luxury System</title>
+</head>
+
+<body align="center">
+    <!-- 添加顶部背景图片 -->
+    <img src="image/background2.png" class="bg">
+    <img src="image/background4.png" class="bg">
+    <img src="image/background3.png" class="bg">
+    &emsp;&emsp;&emsp;&emsp;
+
+    <!-- 添加Help提示链接 -->
+    <a href="JavaScript:void(0)" onclick="openDialog()"
+        style="font-size: 20px;font-weight:bold;color:rgb(41, 5, 248)">Help</a>
+    <div id="light" class="white_content">
+        <ul>
+            <li>"Leasable Bags" lists all bags that are not leased.</li>
+            <li>"Lease History" lists the rental records of all customers.</li>
+            <li>"Database Details" lists the details of database.</li>
+            <li>"Query Details" provides query functionality.</li>
+            <li>"User Register" lists the rental records of all customers.</li>
+        </ul>
+        <a href="javascript:void(0)" onclick="closeDialog()" style="font-size: 16px;color:rgb(189, 57, 57)">Close</a>
+    </div>
+
+    <h3>Welcome to Leasing Luxury System!</h3>
+
+
+    <div class="box"><a href="bags.php" class="home">
+            Leasable Bags
+        </a><br>
+        <br>
+        <a href="history.php" class="home">
+            Lease History
+        </a><br>
+        <br>
+        <a href="details.php" class="home">
+            Database Details
+        </a><br>
+        <br>
+        <a href="query.php" class="home">
+            Query Details
+        </a><br>
+        <br>
+        <a href="register.php" class="home">
+            User Register
+        </a>
+    </div>
+
+    <br>
+    <img src="image/bag1.png"> <img src="image/bag2.png"> <img src="image/bag3.png"> <img src="image/bag4.png"> <img
+        src="image/bag5.png"> <img src="image/bag6.png"> <img src="image/bag7.png"> <img src="image/bag8.png"> <img
+        src="image/bag9.png"> <img src="image/bag10.png"> <img src="image/bag11.png"> <img src="image/bag12.png">
+
+</body>
+<script type="text/javascript">
+    function openDialog() {
+        document.getElementById('light').style.display = 'block';
+    }
+    function closeDialog() {
+        document.getElementById('light').style.display = 'none';
+    }
+</script>
+
+
+</html>
+<link rel="stylesheet" href="style.css">

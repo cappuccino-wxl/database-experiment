@@ -1,0 +1,134 @@
+.white_content {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 78%;
+    width: 21%;
+    height: 35%;
+    padding: 5px;
+    border: 1px solid rgb(189, 57, 57);
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
+
+th {
+    background-color: lightskyblue;
+    height: 3em;
+    font-size: 120%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-style: 20px;
+    height: 2em;
+    padding: 10px;
+}
+
+.his {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.dis {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+a {
+    /* font-size: 16px; */
+    font-size: 150%;
+    text-decoration: none;
+    color: #6bbbc4;
+}
+
+a:hover {
+    color: orchid;
+}
+
+.home {
+    /* 一排横的链接变成了竖的 */
+
+    /* display: block; */
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    background-color: #55585a;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0.5em;
+    /* 让行高等于盒子高度可以让文字居中 */
+    line-height: 60px;
+}
+
+/* 2. 鼠标经过a给链接设置背景颜色 */
+.home:hover {
+    background-color: #ff7000;
+}
+
+.box {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: serif;
+    width: 300px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid rgb(194, 201, 201);
+}
+
+.in {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+}
+
+img {
+    height: 90px;
+    width: 100px;
+}
+
+.bg {
+    width: 400px;
+    height: 120px;
+}
+
+.wrap {
+    height: 130px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.b {
+    width: 300px;
+    height: 100px;
+}
